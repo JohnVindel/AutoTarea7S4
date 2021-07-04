@@ -12,4 +12,4 @@ try:
     intro = input("Ingrese el Municipio: ")
     print("El Municipio es {} y tiene como cabecera a {}.".format(intro, format(municipios[intro], )))
 except KeyError:
-    print ("El pais que ingreso no existe")
+    print ("El municipio que ingreso no existe")
